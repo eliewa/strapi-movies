@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_info_descriptions",
+  "info": {
+    "displayName": "description",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "year": {
+      "type": "date"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "releasedate": {
+      "type": "date"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "plot": {
+      "type": "richtext"
+    }
+  }
+}

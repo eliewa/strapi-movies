@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "movies",
+  "collectionName": "tvshows",
   "info": {
-    "singularName": "movie",
-    "pluralName": "movies",
-    "displayName": "Movie",
+    "singularName": "tvshow",
+    "pluralName": "tvshows",
+    "displayName": "tvshow",
     "description": ""
   },
   "options": {
@@ -16,12 +16,6 @@
       "type": "component",
       "repeatable": false,
       "component": "info.description"
-    },
-    "reviews": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::review.review",
-      "mappedBy": "movie"
     }
   }
 }
