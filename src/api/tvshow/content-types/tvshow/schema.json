@@ -16,6 +16,16 @@
       "type": "component",
       "repeatable": false,
       "component": "info.description"
+    },
+    "OnlinePlatform": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

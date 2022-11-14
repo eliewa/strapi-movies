@@ -17,11 +17,11 @@
       "repeatable": false,
       "component": "info.description"
     },
-    "reviews": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::review.review",
-      "mappedBy": "movie"
+    "Director": {
+      "type": "string"
+    },
+    "Actors": {
+      "type": "text"
     }
   }
 }

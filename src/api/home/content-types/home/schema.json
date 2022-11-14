@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "home"
+    "displayName": "AboutUs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,18 @@
     "title": {
       "type": "string"
     },
-    "search": {
-      "type": "string"
+    "ProfilePic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bio": {
+      "type": "richtext"
     }
   }
 }

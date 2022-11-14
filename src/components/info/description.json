@@ -16,9 +16,6 @@
     "releasedate": {
       "type": "date"
     },
-    "genre": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -35,6 +32,16 @@
     },
     "year": {
       "type": "biginteger"
+    },
+    "genres": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::genre.genre"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
     }
   }
 }

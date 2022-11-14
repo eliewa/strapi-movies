@@ -16,12 +16,6 @@
     },
     "user": {
       "type": "string"
-    },
-    "movie": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::movie.movie",
-      "inversedBy": "reviews"
     }
   }
 }
