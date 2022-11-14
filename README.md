@@ -1,57 +1,15 @@
-# 🚀 Getting started with Strapi
+# STRAPI Movie Database
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+## Developer: Eli Ewa
 
-### `develop`
+## Project Description
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+This is a movie database web app that I am building for myself to use personally and also add to my portfolio. As a big movie fan who is always wondering what to watch next and what is popular at the moment, I find an app like this one to be quite useful and a fun way to offer users a vast amount of information with very little complexity. My goal for this project is to implement a random movie generator which will take info about the users interests and generate a list of movies/tv shows from an API which most closely match their interests. In addition to this, the site will act as a simple database where users can browse endlessly through 100's of movies and tv shows and be directed to websites where they can purchase or stream them.
 
-```
-npm run develop
-# or
-yarn develop
-```
+### Site Map link => https://www.figma.com/file/OnfcgjURFkKGfkXiAqGNnl/strapi-moviedb?node-id=0%3A1&t=gqo4u6CPBLP74Nia-1
 
-### `start`
+## Extras
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+Components: I made a "description" component to group the common description elements together for movies and t.v shows.
 
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Relation fields: I created two separate relation fields, one for "genre" and another for "reviews". I decided to make them "one to many" since one movie can have multiple genres and reviews. 
