@@ -10,11 +10,8 @@
     "title": {
       "type": "string"
     },
-    "year": {
-      "type": "date"
-    },
     "rating": {
-      "type": "integer"
+      "type": "decimal"
     },
     "releasedate": {
       "type": "date"
@@ -35,6 +32,9 @@
     },
     "plot": {
       "type": "richtext"
+    },
+    "year": {
+      "type": "biginteger"
     }
   }
 }
